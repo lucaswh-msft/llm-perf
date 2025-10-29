@@ -1,0 +1,2 @@
+deployment_type,latency_target,run_number,requests_per_sec,p50_latency,p75_latency,p90_latency,total_requests,successful_requests,failed_requests,timestamp
+maas,6,1,5,17.44015145301819,17.717407703399658,17.949017763137817,1497,37,1460,2025-10-25T03:37:25.759589

@@ -1,0 +1,2 @@
+precision,latency_target,run_number,ptu_count,p50_latency,p75_latency,p90_latency,total_requests,successful_requests,failed_requests,timestamp
+fp8,6,1,30,7.662848949432373,7.686163902282715,7.7059807777404785,39,39,0,2025-10-24T22:51:21.827870
