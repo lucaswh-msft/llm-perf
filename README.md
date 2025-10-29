@@ -18,8 +18,19 @@ Performance testing scripts for Azure LLM deployments (Llama 3.3 70B).
    ```bash
    export $(cat .env | xargs)
    ```
-   
-   Or use a tool like `python-dotenv` to load the `.env` file automatically.
+
+## Running Scripts
+
+```bash
+# Validate endpoint connectivity
+python3 validate_endpoint.py
+
+# Run performance tests
+python3 test_azure_model.py
+
+# Debug endpoint formats
+python3 debug_endpoint.py
+```
 
 ## Scripts
 
